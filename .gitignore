@@ -1,0 +1,208 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python Packaging
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type Checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Linting
+.ruff_cache/
+.pylint.d/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.*
+!.env.example
+
+# ============================================
+# IDEs
+# ============================================
+.vscode/
+.idea/
+
+# ============================================
+# Operating System Files
+# ============================================
+.DS_Store
+Thumbs.db
+
+# Linux
+*~
+*.swp
+*.swo
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+
+# ============================================
+# Database
+# ============================================
+*.sqlite3
+*.db
+
+# ============================================
+# FastAPI / Flask / Django
+# ============================================
+instance/
+media/
+staticfiles/
+
+# Django
+db.sqlite3
+
+# ============================================
+# AI / Machine Learning
+# ============================================
+
+# Trained Models
+models/
+checkpoints/
+weights/
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+*.pickle
+
+# TensorBoard
+runs/
+tensorboard_logs/
+
+# Hugging Face
+.cache/huggingface/
+huggingface/
+
+# MLflow
+mlruns/
+
+# Datasets
+data/raw/
+data/external/
+datasets/
+
+# Ignore large datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Keep folder structure
+!data/.gitkeep
+!datasets/.gitkeep
+
+# ============================================
+# Node.js / React / Vue Frontend
+# ============================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# npm / yarn / pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# Docker
+# ============================================
+.docker/
+
+# ============================================
+# VS Code Testing
+# ============================================
+.history/
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+.cache/
+*.tmp
+
+# ============================================
+# Secrets
+# ============================================
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+credentials.json
+service-account.json
+
+# ============================================
+# Coverage Reports
+# ============================================
+coverage/
+coverage.xml
+
+# ============================================
+# Misc
+# ============================================
+*.bak
+*.orig
+
+.env
+.agents
+
+venv
+
+individual_countries.zip
+
+Master_Global_Budgets_Historical.csv
+vdb.py
